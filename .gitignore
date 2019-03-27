@@ -6,6 +6,7 @@ _site
 ruby
 openssl.patch
 vendor
+_data/
 
 # Emacs autosave files
 *~

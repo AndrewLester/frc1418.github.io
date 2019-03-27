@@ -10,6 +10,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     autoprefixer-rails (9.1.4)
       execjs
+    banner-locator (0.0.6)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -234,6 +235,7 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    tbarb (0.3.1)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -247,11 +249,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  banner-locator
   github-pages
   octopress-autoprefixer
+  tbarb
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 2.3.3p222
 
 BUNDLED WITH
-   1.16.1
+   1.17.1
